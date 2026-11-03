@@ -3,7 +3,7 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-02T21:10:19+05:30</updated>
+    <updated>2026-11-03T17:14:05+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
@@ -16,10 +16,12 @@
         </author>
         <link href="https://franzhermann12.github.io/blog/decoding-hypersonic-aircraft-the-science-and-engineering-behind-flight-at-mach-5/"/>
         <id>https://franzhermann12.github.io/blog/decoding-hypersonic-aircraft-the-science-and-engineering-behind-flight-at-mach-5/</id>
+        <media:content url="https://franzhermann12.github.io/media/posts/6/357521main_ED99-45243-01_full.jpg" medium="image" />
 
         <updated>2026-11-02T18:31:43+05:30</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://franzhermann12.github.io/media/posts/6/357521main_ED99-45243-01_full.jpg" alt="" />
                     <p><strong>Research Paper</strong></p>
 <p><strong>Abstract</strong></p>
 <p><span id="tf_1" class="t s4_1" data-mappings="[[11,&quot;fl&quot;],[27,&quot;fl&quot;]]">Hypersonic ﬂight refers to ﬂight at extremely high speeds, generally </span> <span id="tg_1" class="t s4_1">beginning at Mach 5. At these speeds, aircraft experience unusual </span> <span id="th_1" class="t s4_1">aerodynamic, thermal, and propulsion challenges. This paper investigates </span> <span id="ti_1" class="t s4_1" data-mappings="[[63,&quot;fl&quot;]]">the fundamental science and engineering involved in hypersonic ﬂight, </span> <span id="tj_1" class="t s4_1">including Mach number, shock waves, aerodynamic heating, propulsion, </span> <span id="tk_1" class="t s4_1" data-mappings="[[15,&quot;fl&quot;]]">materials, and ﬂight control.</span></p>
@@ -28,6 +30,7 @@
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://franzhermann12.github.io/media/posts/6/357521main_ED99-45243-01_full.jpg" class="type:primaryImage" alt="" /></p>
                 <p><strong>Research Paper</strong></p>
 <p><strong>Abstract</strong></p>
 <p><span id="tf_1" class="t s4_1" data-mappings="[[11,&quot;fl&quot;],[27,&quot;fl&quot;]]">Hypersonic ﬂight refers to ﬂight at extremely high speeds, generally </span> <span id="tg_1" class="t s4_1">beginning at Mach 5. At these speeds, aircraft experience unusual </span> <span id="th_1" class="t s4_1">aerodynamic, thermal, and propulsion challenges. This paper investigates </span> <span id="ti_1" class="t s4_1" data-mappings="[[63,&quot;fl&quot;]]">the fundamental science and engineering involved in hypersonic ﬂight, </span> <span id="tj_1" class="t s4_1">including Mach number, shock waves, aerodynamic heating, propulsion, </span> <span id="tk_1" class="t s4_1" data-mappings="[[15,&quot;fl&quot;]]">materials, and ﬂight control.</span></p>
