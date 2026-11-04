@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://franzhermann12.github.io/blog/electromagnetism/",
+            "url": "https://franzhermann12.github.io/blog/electromagnetism/",
+            "title": "Electromagnetism",
+            "author": {
+                "name": "Sai Satyam Jena"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-11-04T10:08:24+05:30",
+            "date_modified": "2026-11-04T10:08:24+05:30"
+        },
+        {
             "id": "https://franzhermann12.github.io/blog/decoding-hypersonic-aircraft-the-science-and-engineering-behind-flight-at-mach-5/",
             "url": "https://franzhermann12.github.io/blog/decoding-hypersonic-aircraft-the-science-and-engineering-behind-flight-at-mach-5/",
             "title": "Decoding Hypersonic Aircraft: The  Science and Engineering Behind Flight at  Mach 5+ ",

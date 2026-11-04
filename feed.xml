@@ -3,12 +3,24 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-03T17:14:05+05:30</updated>
+    <updated>2026-11-04T10:08:24+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
     <id>https://franzhermann12.github.io</id>
 
+    <entry>
+        <title>Electromagnetism</title>
+        <author>
+            <name>Sai Satyam Jena</name>
+        </author>
+        <link href="https://franzhermann12.github.io/blog/electromagnetism/"/>
+        <id>https://franzhermann12.github.io/blog/electromagnetism/</id>
+
+        <updated>2026-11-04T10:08:24+05:30</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Decoding Hypersonic Aircraft: The  Science and Engineering Behind Flight at  Mach 5+ </title>
         <author>
