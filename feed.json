@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://franzhermann12.github.io/blog/8-bit-computer-from-scratch/",
+            "url": "https://franzhermann12.github.io/blog/8-bit-computer-from-scratch/",
+            "title": "8-bit Computer From Scratch",
+            "summary": "Work In Progress 🚧",
+            "content_html": "<p>Work In Progress 🚧</p>",
+            "author": {
+                "name": "Sai Satyam Jena"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-11-11T16:42:32+05:30",
+            "date_modified": "2026-11-11T16:42:32+05:30"
+        },
+        {
             "id": "https://franzhermann12.github.io/blog/electromagnetism/",
             "url": "https://franzhermann12.github.io/blog/electromagnetism/",
             "title": "Electromagnetism",

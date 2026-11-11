@@ -3,12 +3,32 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-08T10:29:40+05:30</updated>
+    <updated>2026-11-11T16:42:32+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
     <id>https://franzhermann12.github.io</id>
 
+    <entry>
+        <title>8-bit Computer From Scratch</title>
+        <author>
+            <name>Sai Satyam Jena</name>
+        </author>
+        <link href="https://franzhermann12.github.io/blog/8-bit-computer-from-scratch/"/>
+        <id>https://franzhermann12.github.io/blog/8-bit-computer-from-scratch/</id>
+
+        <updated>2026-11-11T16:42:32+05:30</updated>
+            <summary type="html">
+                <![CDATA[
+                    Work In Progress 🚧
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Work In Progress 🚧</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Electromagnetism</title>
         <author>
