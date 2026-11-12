@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://franzhermann12.github.io/blog/algebraic-notation-chess/",
+            "url": "https://franzhermann12.github.io/blog/algebraic-notation-chess/",
+            "title": "Algebraic notation (chess)",
+            "summary": "Work In Progress 🚧 Showly time to time everythings will be added!",
+            "content_html": "<p dir=\"auto\">Work In Progress 🚧</p>\n<p dir=\"auto\">Showly time to time everythings will be added!</p>",
+            "author": {
+                "name": "Sai Satyam Jena"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-11-12T18:12:37+05:30",
+            "date_modified": "2026-11-12T18:12:37+05:30"
+        },
+        {
             "id": "https://franzhermann12.github.io/blog/8-bit-computer-from-scratch/",
             "url": "https://franzhermann12.github.io/blog/8-bit-computer-from-scratch/",
             "title": "8-bit Computer From Scratch",

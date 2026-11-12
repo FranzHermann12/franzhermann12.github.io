@@ -3,12 +3,33 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-11T16:44:51+05:30</updated>
+    <updated>2026-11-12T18:12:37+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
     <id>https://franzhermann12.github.io</id>
 
+    <entry>
+        <title>Algebraic notation (chess)</title>
+        <author>
+            <name>Sai Satyam Jena</name>
+        </author>
+        <link href="https://franzhermann12.github.io/blog/algebraic-notation-chess/"/>
+        <id>https://franzhermann12.github.io/blog/algebraic-notation-chess/</id>
+
+        <updated>2026-11-12T18:12:37+05:30</updated>
+            <summary type="html">
+                <![CDATA[
+                    Work In Progress 🚧 Showly time to time everythings will be added!
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p dir="auto">Work In Progress 🚧</p>
+<p dir="auto">Showly time to time everythings will be added!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>8-bit Computer From Scratch</title>
         <author>
