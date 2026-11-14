@@ -3,12 +3,311 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-14T10:18:27+05:30</updated>
+    <updated>2026-11-14T13:27:14+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
     <id>https://franzhermann12.github.io</id>
 
+    <entry>
+        <title>Universal Converter – Engineering Edition: Architecture, Precision and Implementation</title>
+        <author>
+            <name>Sai Satyam Jena</name>
+        </author>
+        <link href="https://franzhermann12.github.io/blog/universal-converter-engineering-edition-architecture-precision-and-implementation/"/>
+        <id>https://franzhermann12.github.io/blog/universal-converter-engineering-edition-architecture-precision-and-implementation/</id>
+
+        <updated>2026-11-14T13:23:47+05:30</updated>
+            <summary type="html">
+                <![CDATA[
+                    1. Introduction Universal Converter – Engineering Edition is a scientific and engineering unit conversion application developed using Python. The project was designed around a simple&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>1. Introduction</h2>
+<p>Universal Converter – Engineering Edition is a scientific and engineering unit conversion application developed using Python. The project was designed around a simple objective: build a comprehensive conversion utility that combines the functionality of a scientific calculator with the familiarity of a traditional Windows desktop application.</p>
+<p>The application is inspired by the classic Microsoft Convert interface. However, the focus extends beyond basic everyday conversions to include mechanical, physical, and electrical quantities.</p>
+<p>The current release, version 1.0.0, supports 21 conversion categories and uses Python's <code>Decimal</code> arithmetic for high-precision calculations.</p>
+<p><strong>Repository:</strong> <a href="https://github.com/FranzHermann12/UniversalConverter">https://github.com/FranzHermann12/UniversalConverter</a></p>
+<h2>2. System Architecture</h2>
+<p>An important design decision was to separate the application into independent modules rather than placing the entire program inside a single Python file.</p>
+<p>The project follows a modular architecture consisting of five main components:</p>
+<ul>
+<li>
+<p><strong>Core:</strong> Contains the conversion engine.</p>
+</li>
+<li>
+<p><strong>Data:</strong> Contains the unit database.</p>
+</li>
+<li>
+<p><strong>GUI:</strong> Handles the graphical user interface.</p>
+</li>
+<li>
+<p><strong>Features:</strong> Provides a separate location for application functionality.</p>
+</li>
+<li>
+<p><strong>Tests:</strong> Contains automated tests for the conversion engine.</p>
+</li>
+</ul>
+<p>The main application entry point is responsible for launching the graphical application.</p>
+<p>The directory structure is organised as follows:</p>
+<pre><code>UniversalConverter/
+│
+├── assets/
+│   └── icon.ico
+│
+├── core/
+│   └── engine.py
+│
+├── data/
+│   └── units.py
+│
+├── features/
+│
+├── gui/
+│   └── app.py
+│
+├── tests/
+│   └── test_engine.py
+│
+├── main.py
+├── UniversalConverter.spec
+├── README.md
+├── LICENSE
+└── .gitignore</code></pre>
+<p>This separation makes the project easier to understand, maintain, test, and extend.</p>
+<h2>3. The Conversion Engine</h2>
+<p>The conversion engine is the central computational component of Universal Converter.</p>
+<p>Its responsibility is to process conversion requests and calculate the corresponding output.</p>
+<p>A conventional unit conversion can be represented mathematically as:</p>
+<p>[<br>V_{\text{target}} = V_{\text{source}} \times F<br>]</p>
+<p>Where:</p>
+<ul>
+<li>
+<p>(V_{\text{source}}) is the original numerical value.</p>
+</li>
+<li>
+<p>(F) is the conversion factor.</p>
+</li>
+<li>
+<p>(V_{\text{target}}) is the converted value.</p>
+</li>
+</ul>
+<p>For example:</p>
+<p>[<br>1\text{ km} = 1000\text{ m}<br>]</p>
+<p>Therefore:</p>
+<p>[<br>5\text{ km} = 5 \times 1000 = 5000\text{ m}<br>]</p>
+<p>However, not every conversion follows a simple multiplication operation.</p>
+<p>Temperature conversions require both scaling and an offset.</p>
+<p>For Celsius and Fahrenheit:</p>
+<p>[<br>F = \frac{9}{5}C + 32<br>]</p>
+<p>This is an example of an affine transformation.</p>
+<p>The conversion engine accounts for this distinction, allowing temperature conversions to be handled differently from ordinary multiplicative conversions.</p>
+<h2>4. Numerical Precision with Decimal</h2>
+<p>One of the technical considerations during development was numerical precision.</p>
+<p>Python's standard floating-point representation can introduce small rounding errors in certain calculations.</p>
+<p>For example, some decimal fractions cannot be represented exactly in binary floating-point arithmetic.</p>
+<p>To address this, Universal Converter uses Python's built-in <code>Decimal</code> module.</p>
+<p>Instead of relying entirely on conventional floating-point calculations, the engine performs its numerical operations using decimal arithmetic.</p>
+<p>This is particularly relevant when working with scientific measurements and conversions involving multiple orders of magnitude.</p>
+<p>The objective is to maintain predictable numerical behaviour and avoid unnecessary floating-point inaccuracies.</p>
+<h2>5. Unit Database and Conversion Categories</h2>
+<p>The application maintains its unit definitions separately from the conversion engine.</p>
+<p>This allows the supported measurements to be organised independently of the graphical interface.</p>
+<p>Universal Converter currently supports 21 categories:</p>
+<table>
+<tbody>
+<tr>
+<th>Category</th>
+<th>Measurement</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Length</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Temperature</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Mass</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Time</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Area</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Volume</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Speed</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Acceleration</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Force</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Pressure</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Energy</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Power</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Torque</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Density</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Frequency</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Angle</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Electric Current</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Voltage</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Resistance</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Capacitance</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Electric Charge</td>
+</tr>
+</tbody>
+</table>
+<p>The selection of these categories was intended to cover a broad range of everyday, scientific, mechanical, and electrical measurements.</p>
+<h2>6. Graphical User Interface</h2>
+<p>The graphical interface is developed using Tkinter, Python's standard graphical user interface toolkit.</p>
+<p>Rather than introducing a completely modern interface, I decided to preserve the visual language of classic Windows conversion utilities.</p>
+<p>The interface is designed around a straightforward conversion workflow:</p>
+<ol start="1">
+<li>
+<p>Select a measurement category.</p>
+</li>
+<li>
+<p>Choose the source unit.</p>
+</li>
+<li>
+<p>Choose the destination unit.</p>
+</li>
+<li>
+<p>Enter the numerical value.</p>
+</li>
+<li>
+<p>View the conversion result.</p>
+</li>
+</ol>
+<p>The application also incorporates additional functionality, including:</p>
+<ul>
+<li>
+<p>Unit swapping.</p>
+</li>
+<li>
+<p>Conversion history.</p>
+</li>
+<li>
+<p>Favourite conversions.</p>
+</li>
+</ul>
+<p>The objective is to keep the interface familiar while providing access to a considerably broader set of measurements.</p>
+<h2>7. Automated Testing</h2>
+<p>A conversion application needs more than a functional graphical interface. Its calculations must also be tested independently.</p>
+<p>For this reason, I included an automated testing system using Python's <code>unittest</code> framework.</p>
+<p>The current project contains 25 automated tests covering conversion categories and invalid inputs.</p>
+<p>The test suite can be executed from the project directory using:</p>
+<pre><code>python -m unittest discover -s tests -v</code></pre>
+<p>Testing the conversion engine independently of the graphical interface makes it easier to identify calculation errors without manually operating the application for every test.</p>
+<h2>8. Windows Executable Packaging</h2>
+<p>Another important part of the project was preparing it to run as a standalone Windows application.</p>
+<p>The project uses PyInstaller for packaging.</p>
+<p>The repository includes a <code>UniversalConverter.spec</code> configuration file, which defines the executable build configuration.</p>
+<p>This makes it possible to distribute the application without requiring every user to manually configure the Python development environment.</p>
+<p>The executable is intended to be available through the project's GitHub Releases page.</p>
+<h2>9. Technology Stack</h2>
+<p>The application uses the following technologies:</p>
+<table>
+<tbody>
+<tr>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
+<tr>
+<td>Python</td>
+<td>Main programming language</td>
+</tr>
+<tr>
+<td>Tkinter</td>
+<td>Graphical interface</td>
+</tr>
+<tr>
+<td>Decimal</td>
+<td>Numerical calculations</td>
+</tr>
+<tr>
+<td>unittest</td>
+<td>Automated testing</td>
+</tr>
+<tr>
+<td>PyInstaller</td>
+<td>Windows executable packaging</td>
+</tr>
+<tr>
+<td>Git</td>
+<td>Version control</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>Source code hosting</td>
+</tr>
+</tbody>
+</table>
+<h2>10. Conclusion</h2>
+<p>Universal Converter – Engineering Edition represents an exploration of software architecture, numerical computation, graphical application development, and testing.</p>
+<p>Although unit conversion may appear to be a relatively simple programming task, supporting different measurement systems introduces interesting computational challenges, particularly when dealing with precision and temperature transformations.</p>
+<p>Developing this application provided an opportunity to work with modular Python development, numerical arithmetic, GUI programming, and automated testing within a single project.</p>
+<p>Version 1.0.0 establishes the initial foundation. The project can be extended further with additional measurements, improved functionality, and more advanced engineering-oriented capabilities.</p>
+<div><hr></div>
+<p><strong>Project:</strong> <a href="https://github.com/FranzHermann12/UniversalConverter">Universal Converter – Engineering Edition</a></p>
+<p><strong>Developer:</strong> FranzHermann12</p>
+<p><strong>Version:</strong> 1.0.0</p>
+<p><strong>Language:</strong> Python</p>
+<p><strong>License:</strong> MIT</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>16-bit Computer From Scratch</title>
         <author>
