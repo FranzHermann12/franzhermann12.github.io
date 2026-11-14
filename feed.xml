@@ -3,7 +3,7 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-14T13:35:29+05:30</updated>
+    <updated>2026-11-14T13:35:52+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
@@ -22,7 +22,9 @@
             <summary type="html">
                 <![CDATA[
                         <img src="https://franzhermann12.github.io/media/posts/12/screenshot.png" alt="" />
-                    1. Introduction The Password Generator project started as an experiment in Python programming. I wanted to build something practical that could go beyond generating a&hellip;
+                    <h2>1. Introduction</h2>
+<p>The Password Generator project started as an experiment in Python programming. I wanted to build something practical that could go beyond generating a random string of characters.</p>
+
                 ]]>
             </summary>
         <content type="html">
@@ -30,6 +32,7 @@
                     <p><img src="https://franzhermann12.github.io/media/posts/12/screenshot.png" class="type:primaryImage" alt="" /></p>
                 <h2>1. Introduction</h2>
 <p>The Password Generator project started as an experiment in Python programming. I wanted to build something practical that could go beyond generating a random string of characters.</p>
+
 <p>The initial idea was relatively simple: create a customizable password generator that allows users to control password length, character types, and other generation options.</p>
 <p>However, I eventually wanted to turn it into a complete desktop application, with a graphical interface, configuration profiles, password analysis, and a proper Windows executable.</p>
 <p>The result is Password Generator, a Python-based desktop application built using Tkinter.</p>
