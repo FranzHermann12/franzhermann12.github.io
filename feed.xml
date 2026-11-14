@@ -3,7 +3,7 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-14T13:31:04+05:30</updated>
+    <updated>2026-11-14T13:33:02+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
@@ -292,15 +292,18 @@
         </author>
         <link href="https://franzhermann12.github.io/blog/universal-converter-engineering-edition-architecture-precision-and-implementation/"/>
         <id>https://franzhermann12.github.io/blog/universal-converter-engineering-edition-architecture-precision-and-implementation/</id>
+        <media:content url="https://franzhermann12.github.io/media/posts/11/screenshot.png" medium="image" />
 
         <updated>2026-11-14T13:23:47+05:30</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://franzhermann12.github.io/media/posts/11/screenshot.png" alt="" />
                     1. Introduction Universal Converter – Engineering Edition is a scientific and engineering unit conversion application developed using Python. The project was designed around a simple&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://franzhermann12.github.io/media/posts/11/screenshot.png" class="type:primaryImage" alt="" /></p>
                 <h2>1. Introduction</h2>
 <p>Universal Converter – Engineering Edition is a scientific and engineering unit conversion application developed using Python. The project was designed around a simple objective: build a comprehensive conversion utility that combines the functionality of a scientific calculator with the familiarity of a traditional Windows desktop application.</p>
 <p>The application is inspired by the classic Microsoft Convert interface. However, the focus extends beyond basic everyday conversions to include mechanical, physical, and electrical quantities.</p>
