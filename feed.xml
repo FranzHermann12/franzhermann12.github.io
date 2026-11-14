@@ -3,7 +3,7 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-14T13:33:02+05:30</updated>
+    <updated>2026-11-14T13:34:13+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
@@ -16,15 +16,18 @@
         </author>
         <link href="https://franzhermann12.github.io/blog/building-a-password-generator-with-python-from-a-cli-tool-to-a-windows-desktop-application/"/>
         <id>https://franzhermann12.github.io/blog/building-a-password-generator-with-python-from-a-cli-tool-to-a-windows-desktop-application/</id>
+        <media:content url="https://franzhermann12.github.io/media/posts/12/screenshot.png" medium="image" />
 
         <updated>2026-11-14T13:31:04+05:30</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://franzhermann12.github.io/media/posts/12/screenshot.png" alt="" />
                     1. Introduction The Password Generator project started as an experiment in Python programming. I wanted to build something practical that could go beyond generating a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://franzhermann12.github.io/media/posts/12/screenshot.png" class="type:primaryImage" alt="" /></p>
                 <h2>1. Introduction</h2>
 <p>The Password Generator project started as an experiment in Python programming. I wanted to build something practical that could go beyond generating a random string of characters.</p>
 <p>The initial idea was relatively simple: create a customizable password generator that allows users to control password length, character types, and other generation options.</p>
