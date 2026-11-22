@@ -3,7 +3,7 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-22T17:35:14+05:30</updated>
+    <updated>2026-11-22T17:42:17+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
@@ -16,15 +16,18 @@
         </author>
         <link href="https://franzhermann12.github.io/blog/building-pyphysics2d-developing-a-2d-physics-engine-from-scratch-in-python/"/>
         <id>https://franzhermann12.github.io/blog/building-pyphysics2d-developing-a-2d-physics-engine-from-scratch-in-python/</id>
+        <media:content url="https://franzhermann12.github.io/media/posts/13/screenshot.png" medium="image" />
 
         <updated>2026-11-22T17:33:50+05:30</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://franzhermann12.github.io/media/posts/13/screenshot.png" alt="" />
                     Exploring vector mathematics, rigid-body dynamics, collision detection, and numerical simulation through Python. Physics engines are an essential part of modern game development, scientific visualization, and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://franzhermann12.github.io/media/posts/13/screenshot.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>Exploring vector mathematics, rigid-body dynamics, collision detection, and numerical simulation through Python.</strong></p>
 <h2>Introduction</h2>
 <p>Physics engines are an essential part of modern game development, scientific visualization, and interactive simulations. They allow virtual objects to behave according to physical principles such as gravity, velocity, acceleration, momentum, and collision response.</p>
