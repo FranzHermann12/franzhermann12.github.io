@@ -3,7 +3,7 @@
     <title>Franz Hermann&#x27;s Website</title>
     <link href="https://franzhermann12.github.io/feed.xml" rel="self" />
     <link href="https://franzhermann12.github.io" />
-    <updated>2026-11-22T17:42:17+05:30</updated>
+    <updated>2026-11-22T17:57:24+05:30</updated>
     <author>
         <name>Sai Satyam Jena</name>
     </author>
@@ -22,15 +22,17 @@
             <summary type="html">
                 <![CDATA[
                         <img src="https://franzhermann12.github.io/media/posts/13/screenshot.png" alt="" />
-                    Exploring vector mathematics, rigid-body dynamics, collision detection, and numerical simulation through Python. Physics engines are an essential part of modern game development, scientific visualization, and&hellip;
+                    <h2>Introduction</h2>
+<p>Physics engines are an essential part of modern game development, scientific visualization, and interactive simulations. They allow virtual objects to behave according to physical principles such as gravity, velocity, acceleration, momentum, and collision response.</p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://franzhermann12.github.io/media/posts/13/screenshot.png" class="type:primaryImage" alt="" /></p>
-                <p><strong>Exploring vector mathematics, rigid-body dynamics, collision detection, and numerical simulation through Python.</strong></p>
-<h2>Introduction</h2>
+                <h2>Introduction</h2>
 <p>Physics engines are an essential part of modern game development, scientific visualization, and interactive simulations. They allow virtual objects to behave according to physical principles such as gravity, velocity, acceleration, momentum, and collision response.</p>
+
 <p>Instead of relying on an existing physics library, I decided to explore how these systems work internally by developing <strong>PyPhysics2D</strong>, a two-dimensional physics engine written in Python.</p>
 <p>The objective was to build the fundamental components of a physics simulation from scratch, understand the mathematics behind them, and create an interactive environment in which the engine could be tested.</p>
 <p>The project uses Python for the physics implementation and Pygame for visualizing the simulation.</p>
